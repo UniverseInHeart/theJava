@@ -51,7 +51,7 @@ git config --local --list
  
 > git checkout -D name 版本 // 删除分支
 
-> 
+> git commit --amend //最近的一次commit的message修改
 
 
 ### .git文件
