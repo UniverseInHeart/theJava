@@ -23,8 +23,24 @@ git config --local --list
 > git log -n4 // 最近的log 
 
 
+<<<<<<< HEAD
 > git log --all //全部分支  
 
+=======
+//全部分支  
+git log --all
+
+
+//指定分支  
+git log 分支名
+
+//图形化  
+git log --all --graph
+
+
+// 回滚  
+git reset --hard  
+>>>>>>> 820a7ad6d08a59777e297f1a8b0ea0ed2f8ae9a5
 
 
 > git log 分支名  //指定分支  
