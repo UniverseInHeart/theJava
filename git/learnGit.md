@@ -22,8 +22,18 @@ git log --oneline
 // 最近的log  
 git log -n4 
 
+//全部分支  
+git log --all
 
-// 回滚
+
+//指定分支  
+git log 分支名
+
+//图形化  
+git log --all --graph
+
+
+// 回滚  
 git reset --hard  
 
 
