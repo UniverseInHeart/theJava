@@ -26,19 +26,15 @@
 
 > git log --all //全部分支  
 
-//全部分支  
-git log --all
+
+> git log 分支名  //指定分支 
 
 
-//指定分支  
-git log 分支名
-
-//图形化  
-git log --all --graph
+> git log --all --graph //图形化  
 
 
-// 回滚  
-git reset --hard  
+
+> git reset --hard  // 回滚  
 
 > git log 分支名  //指定分支  
 
