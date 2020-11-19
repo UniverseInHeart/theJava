@@ -15,6 +15,8 @@ git commit -m " "
 
 
 git log   
+
+// 一行  
 git log --oneline
 
 // 最近的log  
@@ -24,7 +26,6 @@ git log -n4
 // 回滚
 git reset --hard  
 
-git log
 
 git push
 
@@ -33,7 +34,7 @@ git push
 git mv A B
 
 // 查看分支  
-git branch -v
+git branch -av
 
 // 创建分支
 git checkout -b name 版本
