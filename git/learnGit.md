@@ -65,8 +65,9 @@ git reset --hard
 
 > git commit --amend //最近的一次commit的message修改
 
-> git rebase -i 要修改commit的父commit编号 -> r
+> git rebase -i 要修改commit的父commit编号 -> r  //历史commit的message修改
 
+> git rebase -i 要修改commit的父commit编号 -> s  //历史commit的message合并
 
 
 ### .git文件
