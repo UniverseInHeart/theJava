@@ -3,10 +3,11 @@
 
 
 
-git init
+> git init
 
-git config --global --list
-git config --local --list
+> git config --global --list
+
+> git config --local --list
 
 > git status
 
@@ -25,19 +26,15 @@ git config --local --list
 
 > git log --all //全部分支  
 
-//全部分支  
-git log --all
+
+> git log 分支名  //指定分支 
 
 
-//指定分支  
-git log 分支名
-
-//图形化  
-git log --all --graph
+> git log --all --graph //图形化  
 
 
-// 回滚  
-git reset --hard  
+
+> git reset --hard  // 回滚  
 
 > git log 分支名  //指定分支  
 
@@ -65,8 +62,9 @@ git reset --hard
 
 > git commit --amend //最近的一次commit的message修改
 
-> git rebase -i 要修改commit的父commit编号 -> r
+> git rebase -i 要修改commit的父commit编号 -> r  //历史commit的message修改
 
+> git rebase -i 要修改commit的父commit编号 -> s  //历史commit的message合并
 
 
 ### .git文件
