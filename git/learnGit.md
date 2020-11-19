@@ -3,10 +3,11 @@
 
 
 
-git init
+> git init
 
-git config --global --list
-git config --local --list
+> git config --global --list
+
+> git config --local --list
 
 > git status
 
