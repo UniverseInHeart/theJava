@@ -1,13 +1,43 @@
 ## 学习如何使用Git
+![](./pic/branching-illustration@2x.png)
 
+
+
+git init
+
+
+
+git status
 
 git add . 
 
-git commit -am " "
+git commit -m " "
+
+
+git log   
+git log --oneline
+
+// 最近的log  
+git log -n4 
+
+
+// 回滚
+git reset --hard  
+
+git log
 
 git push
 
-![](./pic/branching-illustration@2x.png)
+
+// 重命名  
+git mv A B
+
+// 查看分支  
+git branch -v
+
+// 创建分支
+git checkout -b name 版本
+
 
 ## 学习如何使用GitHub
 
