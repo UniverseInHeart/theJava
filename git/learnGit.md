@@ -67,6 +67,8 @@
 
 > git diff -- 文件名  // 比较部分文件暂存区和工作区 `-- 后面代表文件`
 
+> git diff 49c0216a 58d9c6a4 -- \<file\>... // 比较不同commit
+
 
 
 > 恢复暂存区用reset  恢复工作区用checkout,`可以用.代表全部文件`
@@ -100,6 +102,10 @@ HEAD指向某一个commit
 
 
 ## 学习如何使用GitHub
+
+> 开源协议 MIT license
+
+
 
 
 ## GitHub三剑客
