@@ -62,9 +62,11 @@
 
 > git commit --amend //最近的一次commit的message修改
 
-> git rebase -i 要修改commit的父commit编号 -> r  //历史commit的message修改
+> git rebase -i 要修改commit的父commit编号 -> r  // 历史commit的message修改
 
-> git rebase -i 要修改commit的父commit编号 -> s  //历史commit的message合并
+> git rebase -i 要修改commit的父commit编号 -> s  // 历史commit的message合并
+
+> git diff --cached  // 比较暂存区和HEAD  
 
 
 ### .git文件
