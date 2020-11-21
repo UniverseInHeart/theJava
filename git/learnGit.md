@@ -66,7 +66,9 @@
 
 > git rebase -i 要修改commit的父commit编号 -> s  // 历史commit的message合并
 
-> git diff --cached  // 比较暂存区和HEAD  
+> git diff --cached  // 比较暂存区和HEAD 
+
+> git diff  // 比较暂存区和工作区 
 
 
 ### .git文件
