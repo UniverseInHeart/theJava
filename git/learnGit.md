@@ -40,15 +40,10 @@
 
  
 > git log --all --graph  //图形化 
-
-
  
 > git reset --hard   // 回滚 
 
-
 > git push
-
-
 
 > git mv A B // 重命名  
 
@@ -69,6 +64,18 @@
 > git diff --cached  // 比较暂存区和HEAD 
 
 > git diff  // 比较暂存区和工作区 
+
+> git diff -- 文件名  // 比较部分文件暂存区和工作区 `-- 后面代表文件`
+
+
+
+> 恢复暂存区用reset  恢复工作区用checkout,`可以用.代表全部文件`
+
+> git reset HEAD  \<file\>...//放弃暂存，所有文件从暂存区恢复到HEAD
+
+> git checkout -- \<file\>...  //放弃工作区的修改，和暂存区保持一致
+
+>
 
 
 ### .git文件
